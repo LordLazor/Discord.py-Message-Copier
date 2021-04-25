@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-TOKEN = 'ODMxOTI1MjA1NTc5MzMzNzIy.YHcUuQ._f9MLXtkR9MjA3mWwyRQ1tbNCug'
+TOKEN = 'YOUR TOKEN HERE'
 
 bot = commands.Bot(command_prefix=".")
 
