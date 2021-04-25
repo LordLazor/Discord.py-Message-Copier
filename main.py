@@ -17,6 +17,7 @@ async def on_ready():
         await bot.change_presence(status=discord.Status.idle,
                                   activity=discord.Game(name="created by Lazar"))
         await asyncio.sleep(10)
+        
 bot.grabbed = 1
 @bot.command()
 async def grab(ctx, amount = 20):
